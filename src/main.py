@@ -1,5 +1,6 @@
-#this is the folder that displays the date and time
-import datetime
+#this is the folder that creates another to display date and time
+s = ["import datetime\n", "print(datetime.datetime.now())\n"]
 
-print(datetime.datetime.now())
 
+with open("version.md", "w") as f:
+    f.writelines(s)
