@@ -1,6 +1,5 @@
 #this is the folder that displays the date and time
-import time
+import datetime
 
-ttime = time.time()
-print(ttime)
+print(datetime.datetime.now())
 
