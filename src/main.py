@@ -6,5 +6,5 @@ now = datetime.datetime.now()
 
 dateTime = now. strftime("%Y-%m-%d %H:%M:%S:")
 
-with open("version.md", "a") as f:
+with open("version.md", "w") as f:
     f.write(dateTime)
