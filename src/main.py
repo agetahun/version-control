@@ -1,6 +1,10 @@
 #this is the folder that creates another to display date and time
-s = ["import datetime\n", "print(datetime.datetime.now())\n"]
+from datetime import datetime
 
+# saving the current date and time
+now = datetime.datetime.now()
 
-with open("version.md", "w") as f:
-    f.writelines(s)
+dateTime = now. strftime("%Y-%m-%d %H:%M:%S:")
+
+with open("version.md", "a") as f:
+    f.write(dateTime + "\n")
