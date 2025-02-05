@@ -2,7 +2,7 @@
 from datetime import datetime
 
 # saving the current date and time
-now = datetime.datetime.now()
+now = datetime.now()
 
 dateTime = now. strftime("%Y-%m-%d %H:%M:%S:")
 
