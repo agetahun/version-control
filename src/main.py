@@ -7,4 +7,4 @@ now = datetime.datetime.now()
 dateTime = now. strftime("%Y-%m-%d %H:%M:%S:")
 
 with open("version.md", "a") as f:
-    f.write(dateTime + "\n")
+    f.write(dateTime)
